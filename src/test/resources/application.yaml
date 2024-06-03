@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/postgres_test_dev
+    username: test
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
