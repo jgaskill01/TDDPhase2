@@ -1,7 +1,7 @@
 package com.example.phase_two_tdd_full_stack;
 
-import com.example.phase_two_tdd_full_stack.course.Course;
-import com.example.phase_two_tdd_full_stack.course.CourseRepository;
+import com.example.phase_two_tdd_full_stack.Course.Course;
+import com.example.phase_two_tdd_full_stack.Course.CourseRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

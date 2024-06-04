@@ -4,10 +4,10 @@ import {http, HttpResponse} from "msw";
 import {createCourse} from "../lib/course-service.ts";
 
 describe('Course Service', () =>{
-    it('should post new course to correct path', () => {
+    it('should post new course to correct path', async () => {
 
         //SET UP MOCKED ENDPOINT
-        server.use(http.post('/api/course', () =>{
+        server.use(http.post('/api/course',  () =>{
             return HttpResponse.json({title: 'some title'})
         }))
 
